@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meme World Builder</title>
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<h1>Meme World Builder</h1>
+	<h2>Coloque seu meme</h3>
+	<form class="pure-form pure-g">
+		<fieldset>
+			<label for="Nome">
+				<input type="text" id="Nome" placeholder="Nome">
+			</label>
+			<label for="URL">
+				<input type="text" id="URL" placeholder="URL">
+			</label>
+			<button class="pure-button pure-button-primary" type="submit">
+			Adicionar</button>
+		</fieldset>
+	</form>
+	<br><br>
+	<h2>Meme DataBase</h3>
+	<table class="pure-table pure-table-horizontal">
+		<thead>
+			<th>Meme</th>
+			<th>Postador</th>
+			<th></th>
+		</thead>
+		<tbody>
+			<tr>
+				<td><img class="pure-img" src="https://pics.onsizzle.com/Instagram-Puggo-does-a-licc-216975.png"></td>
+				<td>aoisjd</td>
+				<td>
+					<button class="pure-button pure-button-primary" type="button">Editar</button>
+					<button class="pure-button button-error" type="button">Delet this</button>
+				</td>
+			</tr>
+			<tr>
+				<td><img class="pure-img" src="https://pbs.twimg.com/profile_images/454962828600803328/jXG0H97g.png"></td>
+				<td>aoisjd</td>
+				<td>
+					<button class="pure-button pure-button-primary">Editar</button>
+					<button class="button-error pure-button">Delet this</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<br><br>
+	<button class="button-xlarge pure-button">Entrar no meme world!</button>
+</body>
+</html>
